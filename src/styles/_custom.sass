@@ -2,44 +2,94 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 35%
+    right: 76%
+    width: 26%    
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 33%
+    right: 8%
+    width: 26%
+
 
 @keyframes float1
   0%
     transform: translateY(20px)
+
   100%
     transform: translateY(0px)
+.img-44
+  width: 44px
+  justify-content: center!important
+  display: block
+  margin: 0 auto    
+.fnd-1 
+  background-color: #D9F9FF !important
+  &::before 
+    background-color: #F2F6FA !important
+
+.fnd-2 
+  background-color: #DEF3F3 !important
+  &::before 
+    background-color: #FCE3AC !important
+.fnd-3 
+  background-color:  #FFF4DA !important   
+.fnd-4 
+  background-color: #F5FAFF !important
+.fnd-4- 
+  background-color: #F6F6F6 !important  
+.fnd-4-.acordion__activo
+    background-color: #E8E8E8 !important
+.fnd-5 
+  background-color: #F6F6F6 !important  
+.fnd-6 
+  background-color: #F1F8FF !important  
+
+.fnd-7
   
-///////////CUSTOM BANNER PRINCIPAL E INTERNO/////////////
-.banner-principal .tarjeta
-  background-position: left 50% !important
+  .acordion__accion__btn--a 
+    background-color: $color-primario !important
+    color: #ffffff !important
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
 
-.banner-interno__titulo__icono i
-  color: $color-primario
+.slyder-a__bullets__item--active 
+    background-color: #084A93 !important
 
-figcaption
-  font-weight: normal
+.slyder-a__bullets__item 
+    background-color: #93AECA
 
-.banner-principal__row .banner-principal__img
-  width: 500px !important
-  @media screen and (max-width: $bp-max-xl)
-    width: 400px !important
+.linea-tiempo-d__item--selected
+  .tarjeta--gris
+    background-color: #C3E2FD !important
+.nn
+  color: #000000 !important
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $color-sistema-texto !important
-.banner-interno__fondo
-  background-image: url("../assets/curso/banner_interno.png") !important
-.banner-principal .tarjeta
-  @media screen and (max-width: $bp-max-md)
-    background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
-  @media screen and (max-width: $bp-max-sm)
-    background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
+
+.img-infografica__item, .img-infografica-b__item 
+  width: 6.5%
+
+.btn-m    
+  .img-infografica__item, .img-infografica-b__item 
+    width: 4.5%
+    .img-infografica__item__numero    
+      color: #090909 !important  
+    
+    .img-infografica__item__dot:nth-of-type(2n+1)
+      &::before
+       background-color: $color-acento-botones
+      &::after
+       background-color: $color-acento-botones       
+
+.bor-d
+  border: 5px dashed  #0E4075 !important  
+  padding: 10px
+
+.circle
+  font-size: 8px !important
+  top: 8px !important  
+.acordion__accion__btn--b 
+  background-color: $color-acento-contenido
+
+.banner-principal__img
+  width: 400px !important
