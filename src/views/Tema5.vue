@@ -15,7 +15,7 @@
         .row
           .col-md-7.mb-4.mb-md-0
             h3 Generalidades
-            p Contar con grandes cantidades de datos provenientes de distintas fuentes, tiene una enorme utilidad para la empresa, especialmente en la toma de decisiones, al aplicar la inteligencia de negocios. Sin embargo, desde el punto de vista técnico, principalmente el precio que toca pagar para depurar dichos datos es demasiado alto, llegando a extremos como formatos desconocidos, y hasta lo más común, información errónea.
+            p Contar con grandes cantidades de datos provenientes de distintas fuentes tiene una enorme utilidad para la empresa, especialmente en la toma de decisiones, al aplicar la inteligencia de negocios. Sin embargo, desde el punto de vista técnico, principalmente el precio que toca pagar para depurar dichos datos es demasiado alto, llegando a extremos como formatos desconocidos, y hasta lo más común, información errónea.
 
 
           .col-md-5
@@ -24,7 +24,7 @@
 
         .row
           .col-md-7.mb-4.mb-md-0
-            p Esto obliga a las empresas a realizar grandes, tediosos y muy costosos procesos de depuración de datos, que consiste en combinar dos o más archivos, listas de bases de datos, con el objeto de identificar registros similares o iguales, datos incorrectos, no deseados, mal digitados para poder desecharlos, catalogándolos como información no válida para la compañía y, finalmente, obtener registros únicos, bien construidos y con información veraz, que realmente sea de utilidad para la empresa.  Esta situación es frecuente, principalmente por las diferentes fuentes u origen de la información; una situación clásica en el medio colombiano, por ejemplo, es que en la facturación al señor Córdova, lo registran con “b”, es decir, “Córdoba”; en redes sociales, lo escriben con “v”, es decir, “Córdova”, en la EPS lo escribe sin tilde y así sucesivamente.
+            p Esto obliga a las empresas a realizar grandes, tediosos y muy costosos procesos de depuración de datos, que consiste en combinar dos o más archivos, listas de bases de datos, con el objeto de identificar registros similares o iguales, datos incorrectos, no deseados, mal digitados para poder desecharlos, catalogándolos como información no válida para la compañía y, finalmente, obtener registros únicos, bien construidos y con información veraz, que realmente sea de utilidad para la empresa.  Esta situación es frecuente, principalmente por las diferentes fuentes u orígenes de la información; una situación clásica en el medio colombiano, por ejemplo, es que en la facturación al señor Córdova, lo registran con “b”, es decir, “Córdoba”; en redes sociales, lo escriben con “v”, es decir, “Córdova”, en la EPS lo escribe sin tilde y así sucesivamente.
           .col-md-5
             figure
               img(src='@/assets/curso/temas/tema5/img-1.png')
@@ -42,7 +42,7 @@
 
               li
                 i.fas.fa-circle.circle
-                p.mb-0  Detectar los registros duplicados, construyendo y aplicando algoritmos de coincidencia de datos efectivo y óptimo, adicionalmente las variaciones difusas, exactas y/o numéricas e incluso, variaciones fonéticas de dichos datos.
+                p.mb-0  Detectar los registros duplicados, construyendo y aplicando algoritmos de coincidencia de datos efectivos y óptimos; adicionalmente las variaciones difusas, exactas y/o numéricas, e incluso variaciones fonéticas de dichos datos.
 
               li
                 i.fas.fa-circle.circle
@@ -62,7 +62,7 @@
 
 <script>
 export default {
-  name: 'Tema3',
+  name: 'Tema5',
   data: () => ({
     // variables de vue
   }),
