@@ -11,14 +11,14 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
         p Una bodega de datos no es más que un tipo de base de datos específica y especializada que reúne, completa, organiza e incluso llega a integrar una gran cantidad de datos, para que pueda ser analizada de forma menos compleja y con su consecuente procesamiento como fórmula efectiva para facilitar la toma de decisiones. También, y bajo la misma línea conceptual, se puede afirmar que es un conjunto de datos orientados y/o integrados a una meta específica u objetivos bien determinados, que seguramente tendrán variaciones en el tiempo, pero que realmente son permanentes, comúnmente conocidos como datos históricos. Siempre buscando la toma de decisiones con base en el aprovechamiento óptimo de los grandes volúmenes de información que manejan.
-      .col-lg-5
+      .col-sm-8.col-lg-5
         figure
             img(src='@/assets/curso/temas/tema6/img-1.png')
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .row.justify-content-center.align-items-center
-          .col-lg-4
+          .d-none.d-lg-block.col-lg-4
             figure
               img(src='@/assets/curso/temas/tema6/img-2.svg')
           .col-lg-8
@@ -35,12 +35,12 @@
                 p.mb-0 Finalmente, se determinan acciones nuevas, que se adicionan a las operaciones y al quehacer diario empresarial, producto de los dos ítems anteriores (Wanumen et al., 2017).
 
     .row.mt-5
-      h3 Consultas y reportes de bodegas de datos
+      h3.mb-5 Consultas y reportes de bodegas de datos
 
     p.mb-5 Una vez que se tienen los datos almacenados en la bodega de datos, es decir, posterior a su extracción, procesamiento y cargue, existen herramientas que permiten su consulta, reportes y, en general, facilitan la toma de decisiones que se fundamenta en esta información. Algunas herramientas para consultas y reportes son:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
+      .col-sm-8.col-lg-5
         figure
           img.mb-5(src='@/assets/curso/temas/tema6/img-3.png')
       .col-lg-7
@@ -50,14 +50,14 @@
 
 
     .row.mt-5
-      h3 Sistemas de soporte y apoyo
+      h3.mb-5 Sistemas de soporte y apoyo
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
         p La diversidad de criterios en torno a los sistemas de soporte y apoyo es mucha y muy variada, principalmente por la gran cantidad de posibilidades que se pueden aplicar, específicamente en la toma de decisiones. No obstante, en forma global, un DSS (por sus siglas en inglés, <em>decision support system</em>) que en español quiere decir sistema de apoyo a las decisiones, es una aplicación informática utilizada para apoyar la toma de decisiones; se debe entender que esto no implica automatizar este proceso; además, es necesario tener en cuenta que cada decisión se toma basada en alternativas que se estiman y en los valores de dichas estimaciones. Directamente, este apoyo consiste en ofrecer información para generar alternativas muy inteligentes y viables, acompañada de su consecuente toma de decisión respecto a la alternativa a escoger.
         p Los DSS hacen parte de todas las áreas del saber, lo que les otorga la característica de multidisciplinarios, incluyendo el tema investigativo acerca de las bases de datos (sin que sea exclusivo a estos temas), como también a la inteligencia artificial, sin dejar de mencionar las interacciones hombre-máquina, el <em>software</em> y las telecomunicaciones, etc. (Wanumen et al., 2017).
 
-      .col-lg-5
+      .col-sm-8.col-lg-5
         figure
           img.mb-5(src='@/assets/curso/temas/tema6/img-4.svg')
       .col-lg-8
