@@ -15,7 +15,7 @@
             img(src='@/assets/curso/temas/tema1/img-1.svg')
 
       .col-md-6.col-lg-7
-        p Expresiones como “<b>Quien tiene la información, maneja al mundo</b>” o “<b>Solo el que tiene los datos, puede administrar todo</b>” etc. señalan claramente la importancia de las fuentes de datos, las cuales pueden ser muy variadas y de distinta índole, según las propias necesidades de quien las utiliza. Por ejemplo, los ERP o <em>software</em> ERP <em>(Enterprise Resource Planning)</em>, lo que equivale en español a decir sistema de planificación de recursos empresariales o sistemas de gestión de recursos empresariales, son las aplicaciones dedicadas al almacenamiento global de todo tipo de información, que tenga alguna importancia para la empresa.
+        p Expresiones como “<b>Quien tiene la información, maneja al mundo</b>” o “<b>Solo el que tiene los datos, puede administrar todo</b>” etc. señalan claramente la importancia de las fuentes de datos, las cuales pueden ser muy variadas y de distinta índole, según las propias necesidades de quien las utiliza. Por ejemplo, los ERP o <em>software</em> ERP <em>(Enterprise Resource Planning)</em>, lo que equivale en español a decir sistema de planificación de recursos empresariales o sistemas de gestión de recursos empresariales, son las aplicaciones dedicadas al almacenamiento global de todo tipo de información que tenga alguna importancia para la empresa.
 
         p Indiscutiblemente, en la actualidad el <em>big data</em> tiene un uso de grandes cantidades de información empresarial, óptimo y efectivo; no obstante, cuando se logra su manejo y se le adicionan las características de los ERP, los avances en cuanto a rendimiento, optimización y resultados son mayores, lo que redunda en encontrar nuevas posibilidades de negocios, tomar mejores decisiones y, es decir, avanzar hacia una mejora ostensible de procesos. Incluso, se puede entrar en el terreno de las predicciones, basándose en el estudio de determinados comportamientos de clientes. Siempre se menciona como una desventaja el alto costo de estos procesos y herramientas; sin embargo, a futuro y con los resultados mostrados, termina siendo un ahorro de costos muy importante (Crespo et al., 2012).
 
@@ -29,10 +29,7 @@
 
 
     .row.mt-5
-      ul.lista-ul--color.lista-ul--separador
-          li
-            i.fas.fa-square
-            h3 Sistemas transaccionales
+      h3 Sistemas transaccionales
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -63,10 +60,7 @@
 
 
     .row.mt-5
-      ul.lista-ul--color.lista-ul--separador
-          li
-            i.fas.fa-square
-            h3 Bases de datos
+      h3 Bases de datos
 
     p.mb-5 A continuación, se presenta información sobre las bases de datos.
 
@@ -100,10 +94,7 @@
 
 
     .row.mt-5
-      ul.lista-ul--color.lista-ul--separador
-          li
-            i.fas.fa-square
-            h3 Tipos de bases de datos
+      h3 Tipos de bases de datos
 
     .row.justify-content-between.mb-5
       .col-md-6.col-lg-6.mb-5
@@ -150,10 +141,7 @@
                     i.nn.fas.fa-file-download
 
     .row.mt-5
-      ul.lista-ul--color.lista-ul--separador
-          li
-            i.fas.fa-square
-            h3 Archivos planos
+      h3 Archivos planos
 
     p Los archivos planos son una recopilación de información que está guardada digitalmente y se puede acceder a ella muy organizadamente, en una base de datos. Con frecuencia, es utilizada para guardar información, con la condición de que no es estructurada.
 
@@ -176,10 +164,7 @@
 
 
     .row.mt-5
-      ul.lista-ul--color.lista-ul--separador
-          li
-            i.fas.fa-square
-            h3 APIs
+      h3 APIs
 
 
     .row.justify-content-between.mb-5
@@ -210,10 +195,7 @@
             img(src='@/assets/curso/temas/tema1/img-12.svg')
 
     .row.mt-5
-      ul.lista-ul--color.lista-ul--separador
-          li
-            i.fas.fa-square
-            h3 Ficheros de texto
+      h3 Ficheros de texto
 
     p.mb-5 A continuación, se mencionan algunos formatos de ficheros de texto:
 
@@ -249,10 +231,10 @@
             p Uno de los aspectos que resalta la importancia de su funcionamiento consiste en que es un formato independiente de todos los lenguajes de programación, es decir, los servicios que comparten datos mediante JSON no necesitan hablar el mismo idioma, lo cual indica que el emisor y el receptor pueden ser dos herramientas de desarrollo completamente diferentes como<em> Python y Java</em>; simplemente porque cada uno de ellos tiene su propia forma y herramientas (librerías, etc.) para codificar y decodificar los mensajes. A medida que va pasando el tiempo, JSON se está afianzando como la más importante alternativa de XML, por su potencia para serializar y deserializar objetos de casi todas las herramientas de programación.
             p Su funcionamiento está basado en la estructuración de una colección de pares con nombre y valor, cuyo contenido es:
             ul.lista-ul--color
-              li
+              li.d-flex
                 i.fas.fa-circle.circle
                 p Clave que cumple con la función de identificador del contenido.
-              li
+              li.d-flex
                 i.fas.fa-circle.circle
                 p Valor que, a su vez, es el encargado de representar el contenido correspondiente.
           .col-md-5

@@ -32,23 +32,23 @@
           .col-md-7.mb-4.mb-md-0
             h3 ¿Realmente cómo funciona o cuáles son los aspectos a tener en cuenta para dicha depuración?
             ul.lista-ul--color
-              li
+              li.d-flex
                 i.fas.fa-circle.circle
-                p.mb-0 Eliminar las posibles incoherencias estructurales y estadísticas en los datos, entre los cuales se pueden mencionar: actualizar valores nulos, corregir errores de puntuación, suprimir espacios iniciales y finales, etc.
+                p.mb-0 Eliminar las posibles incoherencias estructurales y estadísticas en los datos, entre las cuales se pueden mencionar: actualizar valores nulos, corregir errores de puntuación, suprimir espacios iniciales y finales, etc.
 
-              li
+              li.d-flex
                 i.fas.fa-circle.circle
                 p.mb-0 Identificar los patrones presentes en las columnas, ejecutando comprobaciones de validación e incluso de transformación de información no válida o ilegítima, de tal manera que permita que todos los valores cumplan el patrón válido.
 
-              li
+              li.d-flex
                 i.fas.fa-circle.circle
-                p.mb-0  Detectar los registros duplicados, construyendo y aplicando algoritmos de coincidencia de datos efectivos y óptimos; adicionalmente las variaciones difusas, exactas y/o numéricas, e incluso variaciones fonéticas de dichos datos.
+                p.mb-0  Detectar los registros duplicados, construyendo y aplicando algoritmos de coincidencia de datos efectivos y óptimos; adicionalmente, las variaciones difusas, exactas y/o numéricas, e incluso variaciones fonéticas de dichos datos.
 
-              li
+              li.d-flex
                 i.fas.fa-circle.circle
                 p.mb-0 Realizar procesos correctos de integración de datos, utilizando para ellos todas las fuentes de datos disponibles, para obtener como resultado archivos locales, planos, XML, JSON, etc. provenientes de distintas aplicaciones web y, en general, cualquier tipo de aplicación.
 
-              li
+              li.d-flex
                 i.fas.fa-circle.circle
                 p.mb-0 Todo lo anterior, basado en la creación de perfiles de datos, como fórmula efectiva para identificar datos actuales y correctos para la empresa.
 

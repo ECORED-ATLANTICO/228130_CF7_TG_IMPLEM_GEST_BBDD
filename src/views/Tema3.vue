@@ -26,10 +26,10 @@
           p Este concepto en el ámbito de <em>data warehouse</em> no aplica; de hecho, no se puede aplicar y la forma de tener registro de un historial completo, efectivo, óptimo en un sistema de <em>data warehouse</em>, tal que permita acceder, consultar y explorar en cualquier momento un dato específico, es aplicando las metodologías SCD (<em>Slowly Changing Dimensions</em>). En síntesis, cuando unos datos, a través del tiempo, se modifican en reiteradas ocasiones, se puede tomar uno de dos caminos:
 
           ul.lista-ul--color
-            li 
+            li.d-flex
               i.fas.fa-circle.circle
               p.mb-0 Se registran esos cambios en un historial.
-            li 
+            li.d-flex
               i.fas.fa-circle.circle
               p.mb-0 Se reemplazan o actualizan dichos cambios.
 
@@ -41,25 +41,25 @@
         .col-md-7.mb-4.mb-md-0
           p <em>Ralph Kimball,</em> creador de <em>data warehouse</em>, propuso inicialmente las primeras tres estrategias para trabajar con las SCD, las cuales fueron: tipo 1, tipo 2 y tipo 3. Pero con el tiempo se requirió la misma necesidad de mejora y se le adicionaron las tipo 4, tipo 5 y tipo 6; estas nuevas categorías nacieron de los profesionales que trabajan en el tema, modelando y estudiando en profundidad dichos modelos:  
           ul.lista-ul--color
-            li 
+            li.d-flex 
               i.fas.fa-circle.circle
-              p.mb-0 SCD Tipo 0: no cambia o no se tiene en cuenta los cambios.
-            li 
+              p.mb-0 SCD Tipo 0: no cambia o no se tienen en cuenta los cambios.
+            li.d-flex 
               i.fas.fa-circle.circle
               p.mb-0 SCD Tipo 1: sobreescribir.
-            li 
+            li.d-flex 
               i.fas.fa-circle.circle
               p.mb-0 SCD Tipo 2: añadir fila.
-            li 
+            li.d-flex 
               i.fas.fa-circle.circle
               p.mb-0 SCD Tipo 3: añadir columna.
-            li 
+            li.d-flex 
               i.fas.fa-circle.circle
               p.mb-0 SCD Tipo 4: historial separado.
-            li 
+            li.d-flex 
               i.fas.fa-circle.circle
               p.mb-0 SCD Tipo 5: híbrido (1 y 4).
-            li 
+            li.d-flex 
               i.fas.fa-circle.circle
               p.mb-0 SCD Tipo 6: híbrido (1, 2 y 3).
           
