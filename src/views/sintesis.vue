@@ -8,7 +8,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/sintesis.svg", alt="Data Warehouse. Registro de datos a gran escala para apoyar el proceso de toma de decisiones. 1. Almacenada de repositorio de datos rígidos. 2. Centra en el negocio. 3. Completa integración. 4. Control de datos históricos.")
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
