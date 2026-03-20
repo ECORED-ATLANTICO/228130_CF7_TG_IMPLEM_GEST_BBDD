@@ -209,7 +209,7 @@ export default {
     {
       referencia:
         'Naeem, T. (2020). <em>Automatización de datos: cómo transforma el panorama empresarial</em>. Astera.',
-      link: 'https://www.astera.com/es/tipo/blog/automatizaci%C3%B3n-de-datos/',
+      link: '',
     },
     {
       referencia:
